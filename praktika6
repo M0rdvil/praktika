@@ -54,7 +54,6 @@ int main()
  file.seekg(0, file.beg);
  char* quote = new char[length];
  file.get(quote, length, '*');
- //cout << quote << '\n';
  char pat[] = "Atlantic hurricane";
  search(quote, pat);
 	}
